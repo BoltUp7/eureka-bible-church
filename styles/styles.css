@@ -22,18 +22,17 @@ body {
     background: rgb(211,211,211);
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .ebc-logo {
     max-width: 300px;
     flex: 1;
-    margin-right: auto;
 }
 
 .main-nav {
     display: flex;
     flex: 1;
-    margin: 0;
 }
 
 .main-nav li {
@@ -43,8 +42,8 @@ body {
 
 .main-nav li a {
     text-decoration: none;
-    color: #4b015f;
     display: block;
+    color: #4b015f;
     text-align: center;
     font-size: 18px;
     padding-right: 20px;
@@ -125,16 +124,15 @@ body {
 
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .footer-row-one img{
     max-width: 300px;
-    margin-right: auto;
     display: inline;
 }
 
 .footer-row-one p{
-    margin-right: auto;
     display:inline;
     text-align: center;
     margin-right: 20px;
