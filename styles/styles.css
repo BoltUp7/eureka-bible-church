@@ -55,7 +55,7 @@ body {
     position: relative;
     text-align: center;
     color: #4b015f;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 .main-banner-image {
     width:100%;
@@ -77,17 +77,18 @@ body {
 }
 
 /* Home Ministries Section */
-.home-ministries h2 {
+.site-banner {
     text-align: center;
     background-color:rgb(211,211,211);
     padding: 30px;
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 20px;
     color:rgba(75,1,95,1);
 }
 
 .home-links{
     display: flex;
+    margin-bottom: 40px;
 }
 
 .home-links div {
@@ -136,4 +137,67 @@ body {
     display:inline;
     text-align: center;
     margin-right: 20px;
+}
+
+/* About Us Page */
+.about-banner img {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-top div {
+    flex-basis: 400px;
+    background: rgb(211,211,211, 0.5);
+    margin: 80px;
+    flex-basis: 600px;
+    margin-top: 10px;
+}
+
+.service-info-div {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-beliefs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.about-beliefs div {
+    flex: 1;
+    background-color:rgb(211,211,211, 0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+.bottom-div {
+    margin-bottom: 50px;
+}
+
+.all-staff-div {
+    display: flex;
+    gap:10px;
+}
+
+.staff-div {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background-color:rgb(211,211,211, 0.5);
+    padding: 20px;
+    align-items: center;
+}
+
+.staff-div img {
+    width: 50%;
+}
+
+#erica {
+    padding-top: 210px;
 }
